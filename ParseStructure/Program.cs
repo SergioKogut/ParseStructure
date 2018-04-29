@@ -60,7 +60,7 @@ namespace StructureType
             // Console.WriteLine("\n Please, give me two Koefficients of linear equation a and b. \n Format: \"int32, int32\".");
             // string line = Console.ReadLine();
             string line = "23 17";
-            Koeficient k = new Koeficient()
+            Koeficient k = new Koeficient();
             try
             {
                 LinearEquation.Parse(line, ref k.a, ref k.b);
